@@ -1,2 +1,2 @@
-# Clarity App - Advanced Chat Application
+# Clarity App - Advanced Chat Application | Android & iOS
 The app is currently in production.
