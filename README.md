@@ -1,2 +1,2 @@
 # Clarity App - Advanced Chat Application | Android & iOS
-The app is currently in production.
+This app allows users to chat with others with filtered preferences and can schedule meet-ups.
