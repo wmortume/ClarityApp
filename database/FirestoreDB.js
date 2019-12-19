@@ -5,21 +5,7 @@ import "firebase/storage";
 import { AgeFromDateString } from "age-calculator";
 
 class FirestoreDB {
-  constructor() {
-    if (!firebase.apps.length) {
-      firebase.initializeApp({
-        apiKey: "AIzaSyD4t4JntI9ps0KVAhurN344meKjWrRUZ0k",
-        authDomain: "clarityappproject.firebaseapp.com",
-        databaseURL: "https://clarityappproject.firebaseio.com",
-        projectId: "clarityappproject",
-        storageBucket: "clarityappproject.appspot.com",
-        messagingSenderId: "977097976679",
-        appId: "1:977097976679:web:e85d8cdd0c55e28e515dc2",
-        measurementId: "G-HEPVEB0GDM"
-      });
-      // TODO: research firebase.analytics();
-    }
-  }
+  // your firebase configs
 
   createUserAccount = async (user, rejectCallback) => {
     firebase
